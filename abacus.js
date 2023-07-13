@@ -403,7 +403,7 @@ function Abacus(parentDivId, type) {
     ctx.arc(850, 100, 4, 0, 2 * Math.PI, true);
     ctx.arc(610, 100, 4, 0, 2 * Math.PI, true);
     ctx.arc(370, 100, 4, 0, 2 * Math.PI, true);
-    ctx.arc(210, 100, 4, 0, 2 * Math.PI, true);
+    ctx.arc(130, 100, 4, 0, 2 * Math.PI, true);
     ctx.closePath();
     ctx.fill();
   };

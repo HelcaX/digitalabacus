@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <title>CMA Abacus</title>
+    <script src="./abacus.js"></script>
+    <style>
+      #abacusContainer {
+        border: 10px solid black;
+        padding: 0px;
+        display: inline-block;
+      }
+    </style>
+    <script type="text/javascript">
+      function run() {
+        var abacus = new Abacus("myAbacus", 0);
+        abacus.init();
+      }
+    </script>
+  </head>
+  <body onload="run();">
+    <h1>CMA Abacus</h1>
+    <div id="abacusContainer">
+      <div id="myAbacus"></div>
+    </div>
+  </body>
+</html>

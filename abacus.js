@@ -33,7 +33,7 @@ function AbacusCtrl(type) {
         var bead = new Bead();
         bead.position[0] = 980 - i * this.beadSpacing;
         bead.position[1] =
-        10 + this.beadPerLine * this.beadHeight - j * this.beadHeight;
+          120 + this.beadPerLine * this.beadHeight - j * this.beadHeight;
         bead.value = 1;
         if (j > this.beadSep) {
           bead.position[1] =
@@ -341,7 +341,7 @@ function Abacus(parentDivId, type) {
         -30 +
         abacusCtrl.beadLines * abacusCtrl.beadSpacing -
         i * abacusCtrl.beadSpacing;
-      var y = 30 + (abacusCtrl.beadPerLine + 2) * abacusCtrl.beadHeight;
+      var y = 90 + (abacusCtrl.beadPerLine + 2) * abacusCtrl.beadHeight;
       ctx.beginPath();
       ctx.moveTo(x, 20);
       ctx.lineTo(x, y);
@@ -354,7 +354,7 @@ function Abacus(parentDivId, type) {
           20 +
           (abacusCtrl.beadPerLine - abacusCtrl.beadSep) * abacusCtrl.beadHeight;
       if (j === 2)
-        y = 30 + (abacusCtrl.beadPerLine + 2) * abacusCtrl.beadHeight;
+        y = 90 + (abacusCtrl.beadPerLine + 2) * abacusCtrl.beadHeight;
       ctx.beginPath();
       ctx.moveTo(20, y);
       ctx.lineTo(1040, y);
